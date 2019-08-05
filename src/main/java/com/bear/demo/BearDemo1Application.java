@@ -17,7 +17,7 @@ public class BearDemo1Application {
 
     @RequestMapping("/hello")
     public String index(){
-        return "hello,world! 你好，世界！";
+        return "hello,world! 你好，我的世界！";
     }
 
     /*@Bean // 自定义消息转化器第一种方法
